@@ -1,0 +1,143 @@
+.customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18.6rem;
+    padding: 0;
+}
+
+.customer-content {
+    padding: 0;
+    margin: 0;
+    margin-left: 11rem;
+    text-align: left;
+}
+
+.customer-content-info {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.customer-content-header {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.3rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    font-size: 3.2rem;
+}
+
+.customer-content-text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+.customer-content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* margin-bottom: 3rem; */
+}
+
+.customer-content-list-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.customer-content-list-item:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.customer-content-img {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}   
+
+.customer-content-list-item-img {
+    max-width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 3rem;
+    position: relative;
+}
+
+.check-icon {
+    position: absolute;
+    transform: translateX(50%);
+}
+
+.customer-content-list-item-text {
+    margin: 0;
+    padding: 0;
+}
+
+/* Img */
+.customer-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 54rem;
+    height: 47rem;
+}
+
+
+@media(min-width: 0) and (max-width: 988px) {
+    .customer
+ {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .customer
+-content {
+        margin: 0;
+    }
+
+    .customer
+-content-info {
+        margin-bottom: 0.4rem;
+    }
+
+    .customer
+-content-header {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        line-height: 4.2rem;
+        font-size: 3.2rem;
+    }
+
+    .customer
+-content-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .customer
+-content-list-item:not(:last-child) {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .customer
+-content-list-item-title {
+        margin-bottom: 1.2rem;
+        font-weight: 600;
+    }
+
+
+    /* Img */
+    .customer
+-img img {
+        max-width: 40rem;
+        height: 30rem;
+    }
+}

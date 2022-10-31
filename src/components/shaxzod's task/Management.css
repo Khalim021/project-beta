@@ -1,0 +1,109 @@
+
+.management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.management-content {
+    padding: 0;
+    margin: 0;
+    margin-right: 8.5rem;
+}
+
+.management-content-info {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.management-content-header {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.3rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    font-size: 3.2rem;
+}
+
+.management-content-text {
+    margin: 0;
+    padding: 0;
+}
+
+.management-content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.management-content-list-item:not(:last-child) {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+.management-content-list-item-title {
+    margin-bottom: 1.2rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+}
+
+
+/* Img */
+.management-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 54rem;
+    height: 47rem;
+}
+
+
+@media(min-width: 0) and (max-width: 988px) {
+    .management {
+        flex-direction: column;
+        text-align: center;
+    }
+        .management-content {
+            margin: 0;
+        }
+    
+        .management-content-info {
+            margin-bottom: 0.4rem;       
+        }
+    
+        .management-content-header {
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 4.2rem;
+            font-size: 3.2rem;
+        }
+    
+        .management-content-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 1.5rem;
+        }
+    
+        .management-content-list-item:not(:last-child) {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 1.5rem;
+        }
+    
+        .management-content-list-item-title {
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+        }
+    
+    
+        /* Img */
+        .management-img img {
+            max-width: 40rem;
+            height: 30rem;
+        }
+}
