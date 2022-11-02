@@ -1,0 +1,168 @@
+.price_table {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price_title {
+  font-size: 3.4rem;
+  line-height: 5rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.price_subtitle {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.price_table-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  /* column-gap: 7rem; */
+}
+
+.price_table-box {
+  width: 32.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 2.4rem 0 3.2rem;
+}
+
+.box-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  margin-bottom: 0.8rem;
+}
+
+.box-subtitle {
+  font-size: 1.6rem;
+  line-height: 4rem;
+  margin: 0;
+}
+
+.box_price-content {
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  margin: 1.6rem 0;
+}
+
+.box_price {
+  font-weight: 700;
+  font-size: 7.6rem;
+  line-height: 10rem;
+  color: #02897a;
+  margin: 0;
+}
+
+.price_content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+
+.price_symbol {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: #02897a;
+}
+
+.price_subscribe {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #afafaf;
+}
+
+.price_advantages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+  align-items: center;
+}
+
+.price_advantages li {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.order_btn {
+  margin-top: 3.8rem;
+  outline: none;
+  border: none;
+
+  background-color: #02897a;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.05rem;
+  border-radius: 0.8rem;
+  padding: 1.1rem 1.8rem;
+  cursor: pointer;
+}
+
+.box-active {
+  background-color: #02897a;
+  color: #fff;
+}
+
+.box-active .box_price,
+.box-active .price_symbol {
+  color: #fff;
+}
+
+.box-active .price_subscribe {
+  color: #e0e0e0;
+}
+
+.box-active .order_btn {
+  color: #02897a;
+  background-color: #fff;
+}
+
+@media (max-width: 1075px) {
+  .price_table-box {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .price_table-box {
+    width: 27.5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .price_table-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3.2rem;
+  }
+
+  .price_table-box {
+    width: 32.5rem;
+  }
+}
