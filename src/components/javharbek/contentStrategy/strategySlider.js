@@ -1,5 +1,5 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 import data from "./data";
 
 import "swiper/css";
@@ -18,7 +18,7 @@ export default function StrategySlider() {
           We focus on ergonomics and meeting you where you work. It's only a
           keystroke away.
         </p>
-        <Swiper
+        {/* <Swiper
           slidesPerView={3}
           spaceBetween={30}
           loop={true}
@@ -45,7 +45,7 @@ export default function StrategySlider() {
               </SwiperSlide>
             );
           })}
-        </Swiper>
+        </Swiper> */}
       </div>
     </div>
   );
