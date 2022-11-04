@@ -69,9 +69,6 @@
 }
 
 @media screen and (max-width: 1045px) {
-  /* html {
-    font-size: 14px;
-  } */
   .header__img {
     max-width: 54%;
   }
@@ -101,7 +98,7 @@
     width: 100%;
   }
   .header__img {
-    max-width: 70%;
+    max-width: 90%;
     margin: 25px auto;
   }
 }
