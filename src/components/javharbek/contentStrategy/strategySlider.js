@@ -34,7 +34,7 @@ export default function StrategySlider() {
             return (
               <SwiperSlide key={i}>
                 <div className="slider_img">
-                  <img src={e.img} alt="strategy_img" cl />
+                  <img src={e.img} alt="strategy_img" />
                 </div>
                 <div className="strategy_content">
                   <p className="slider_subtitle">
