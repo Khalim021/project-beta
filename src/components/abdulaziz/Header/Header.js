@@ -14,16 +14,16 @@ export default function Header() {
             The most intuitive way to imagine your next user experience.
           </p>
           <div className="header__btns">
-            <a href="#" className="header__btn">
+            <a href="/" className="header__btn">
               Get started
             </a>
-            <a href="#" className="header__play">
-              <img src={Play} />
+            <a href="/" className="header__play">
+              <img src={Play} alt={Play}/>
               <span>Watch the Video</span>
             </a>
           </div>
         </div>
-        <img src={BannerImg} className="header__img" />
+        <img src={BannerImg} className="header__img" alt={BannerImg}/>
       </div>
     </header>
   );

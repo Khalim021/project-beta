@@ -18,7 +18,7 @@ export default function BuildSpecific() {
           <div className="bs-card">
             <div className="bs-card__item">
               <div className="bs-card__pic">
-                <img src={Cursor} />
+                <img src={Cursor} alt={Cursor}/>
               </div>
               <h3 className="bs-card__title">First click tests</h3>
               <p className="bs-card__desc">
@@ -28,7 +28,7 @@ export default function BuildSpecific() {
 
             <div className="bs-card__item">
               <div className="bs-card__pic">
-                <img src={Ds} />
+                <img src={Ds} alt={Cursor}/>
               </div>
               <h3 className="bs-card__title">First click tests</h3>
               <p className="bs-card__desc">
@@ -38,7 +38,7 @@ export default function BuildSpecific() {
 
             <div className="bs-card__item">
               <div className="bs-card__pic">
-                <img src={Heart} />
+                <img src={Heart} alt={Cursor}/>
               </div>
               <h3 className="bs-card__title">First click tests</h3>
               <p className="bs-card__desc">
@@ -48,7 +48,7 @@ export default function BuildSpecific() {
 
             <div className="bs-card__item">
               <div className="bs-card__pic">
-                <img src={Timer} />
+                <img src={Timer} alt={Cursor}/>
               </div>
               <h3 className="bs-card__title">First click tests</h3>
               <p className="bs-card__desc">
@@ -57,7 +57,7 @@ export default function BuildSpecific() {
             </div>
           </div>
 
-          <a href="#" className="build-specific__btn">
+          <a href="/" className="build-specific__btn">
             SIGN UP NOW
           </a>
         </div>
