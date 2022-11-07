@@ -7,9 +7,11 @@ import Collaborative from "./components/shaxzod's task/Collaborative";
 import ContactExperts from "./components/javharbek/contactExperts/contact";
 import StrategySlider from "./components/javharbek/contentStrategy/strategySlider";
 import PriceTable from "./components/javharbek/priceTable/priceTable";
+import Clients from "./components/doniyorbek/Clients";
+import AdvBanner from "./components/doniyorbek/AdvBanner";
+import Footer from "./components/doniyorbek/Footer";
 
 import "./App.css";
-
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
       <ContactExperts />
       <StrategySlider />
       <PriceTable />
+      <Clients />
+      <AdvBanner />
+      <Footer />
     </div>
     // branch
   );

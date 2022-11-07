@@ -1,0 +1,108 @@
+[33mcommit 4a58b21a25809433dcaf46be3b338885dae1f24a[m[33m ([m[1;36mHEAD -> [m[1;32mabdulaziz[m[33m, [m[1;31morigin/abdulaziz[m[33m)[m
+Author: AbdulazizDevH <mr.abdulaziz00791@gmail.com>
+Date:   Fri Nov 4 22:01:50 2022 +0500
+
+    Defects have been eliminated
+
+[33mcommit 0f4ace1150d01567cb38ae4db95d214cebbecc2e[m
+Author: AbdulazizDevH <mr.abdulaziz00791@gmail.com>
+Date:   Fri Nov 4 21:34:10 2022 +0500
+
+    Added properties to lines 16, 17 of the main.css file.
+
+[33mcommit 88d13125f13916f951d75085a1b6ab8c9d882866[m
+Author: AbdulazizDevH <mr.abdulaziz00791@gmail.com>
+Date:   Fri Nov 4 18:48:00 2022 +0500
+
+    Testing..
+
+[33mcommit 478730dddf1105166f3ff8cdd84e409d551d1394[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: e6dbcd6 bda112b
+Author: Khalimjon Akbarov <78840248+Khalim021@users.noreply.github.com>
+Date:   Fri Nov 4 13:48:20 2022 +0500
+
+    Merge pull request #5 from Khalim021/shaxzodbek
+    
+    ready all task
+
+[33mcommit e6dbcd68553b8670cabf9cab4fb3a699bcf89862[m
+Author: Halimjon <khalimjonakbaron@gmail.com>
+Date:   Fri Nov 4 13:44:09 2022 +0500
+
+    fixing  from strategySlider
+
+[33mcommit 788772a13edfa50cc423ccb13c43ba8445bafc0e[m
+Merge: 29ee6aa 0ad612b
+Author: Khalimjon Akbarov <78840248+Khalim021@users.noreply.github.com>
+Date:   Thu Nov 3 11:44:10 2022 +0500
+
+    Merge pull request #4 from Khalim021/javharbek
+    
+    Javharbek
+
+[33mcommit 0ad612b13122acde7110b815ace313029262e972[m[33m ([m[1;31morigin/javharbek[m[33m)[m
+Merge: 56da214 29ee6aa
+Author: Javharbek <yuldashevjavharbek@gmail.com>
+Date:   Wed Nov 2 22:50:17 2022 +0500
+
+    Merge branch 'master' of https://github.com/Khalim021/project-beta into javharbek
+
+[33mcommit 56da21479d3448be08dcb9bc2983fcdd5c9b234d[m
+Author: Javharbek <yuldashevjavharbek@gmail.com>
+Date:   Wed Nov 2 22:50:05 2022 +0500
+
+    done price table
+
+[33mcommit bda112b53579907a1253ff8fdbbebe4b513bc52e[m[33m ([m[1;31morigin/shaxzodbek[m[33m)[m
+Author: shakhzodbekbobobekov <shaxzodbekbobobekov@gmail.com>
+Date:   Wed Nov 2 10:16:05 2022 +0500
+
+    ready all task
+
+[33mcommit 29ee6aae7bf6b325788cb4b0cbae95ea1f1fe5d5[m
+Merge: 0ad7466 1a36daf
+Author: Khalimjon Akbarov <78840248+Khalim021@users.noreply.github.com>
+Date:   Tue Nov 1 19:06:42 2022 +0500
+
+    Merge pull request #3 from Khalim021/javharbek
+    
+    complete task experts/strategy
+
+[33mcommit 1a36daffe6bccbe97090409a7aa1729a225d8dc7[m
+Author: Javharbek <yuldashevjavharbek@gmail.com>
+Date:   Tue Nov 1 18:00:09 2022 +0500
+
+    complete task experts/strategy
+
+[33mcommit 0ad7466e2bac147727140b544db15c3202186c3c[m
+Merge: 1d5c470 8c7242e
+Author: Khalimjon Akbarov <78840248+Khalim021@users.noreply.github.com>
+Date:   Mon Oct 31 09:56:09 2022 +0500
+
+    Merge pull request #2 from Khalim021/shaxzodbek
+    
+    test branch
+
+[33mcommit 8c7242e12ecd059ae950f643f14d9e69efb1f5b1[m
+Author: shakhzodbekbobobekov <shaxzodbekbobobekov@gmail.com>
+Date:   Mon Oct 31 09:19:06 2022 +0500
+
+    test branch
+
+[33mcommit 1d5c4700dc78e2aac7731a1edcfbe287ea529c7b[m
+Author: shakhzodbekbobobekov <shaxzodbekbobobekov@gmail.com>
+Date:   Mon Oct 31 09:06:02 2022 +0500
+
+    management and customer components added
+
+[33mcommit 714733e30d96d80377e8e8dad49e9dd08555c19d[m
+Author: Halimjon <khalimjonakbaron@gmail.com>
+Date:   Sun Oct 30 18:56:01 2022 +0500
+
+    start point
+
+[33mcommit eb1b4c0b6479706c656a2a720b2de2ead7b862f9[m
+Author: Halimjon <khalimjonakbaron@gmail.com>
+Date:   Sun Oct 30 18:41:02 2022 +0500
+
+    Initialize project using Create React App

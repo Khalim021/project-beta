@@ -1,0 +1,137 @@
+.footer {
+    padding-top: 150px;
+    padding-bottom: 46px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    margin: 0;
+}
+
+.footer__logo-link img{
+    width: 163px;
+    height: 29px;
+    margin-bottom: 25px;
+}
+
+.footer__socials {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__socials svg {
+    display: block;
+}
+
+.footer__social:not(:last-child) {
+    margin-right: 36px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__social::before {
+    position: absolute;
+    z-index: -1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #EDFFFC;
+    content: "";
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+}
+
+.footer__item a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #22343D;
+}
+
+.form {
+    max-width: 325px;
+}
+
+.form__title {
+    margin-top: 0;
+    margin-bottom: 34px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 128px 10px 15px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.form__link {
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.form__link a {
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #02897A;
+    border-radius: 4px;
+}
+
+.footer__span {
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.footer__span-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #22343D;
+}
