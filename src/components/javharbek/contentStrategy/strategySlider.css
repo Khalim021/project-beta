@@ -1,0 +1,77 @@
+.slider-content {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.slider-title {
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.slider-text {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 3.2rem;
+}
+
+.swiper {
+  min-height: 44rem;
+}
+
+.swiper-slide {
+  width: 35rem !important;
+  cursor: pointer;
+  transition: 0.04s ease-in-out;
+}
+
+.slider_img {
+  height: 18.5rem;
+}
+
+.strategy_content {
+  padding: 2.4rem;
+  border: 1px solid #dedede;
+  border-radius: 0.8rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.slider_subtitle {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin: 0;
+  margin-bottom: 1.2rem;
+}
+
+.author {
+  font-weight: 700;
+}
+
+.slider_title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  margin: 0;
+  transition: 0.04s ease-in-out;
+}
+
+.swiper-slide:hover .slider_title {
+  color: #02897a;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #c4c4c4 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #02897a !important;
+}

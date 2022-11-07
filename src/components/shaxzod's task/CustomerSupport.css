@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 18.6rem;
+    margin-bottom: 18.6rem;
     padding: 0;
 }
 
@@ -39,7 +40,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    /* margin-bottom: 3rem; */
 }
 
 .customer-content-list-item {
@@ -88,55 +88,56 @@
 
 
 @media(min-width: 0) and (max-width: 988px) {
-    .customer
- {
-        flex-direction: column;
-        text-align: center;
+    .customer {
+        flex-direction: column-reverse;
+        margin-top: 7.5rem;
+        margin-bottom: 7.5rem;
     }
 
-    .customer
--content {
+    .customer-content {
+        text-align: center;
+        margin-top: 1.5rem;
         margin: 0;
     }
 
-    .customer
--content-info {
+    .customer-content-info {
         margin-bottom: 0.4rem;
     }
 
-    .customer
--content-header {
+    .customer-content-header {
         margin-bottom: 1rem;
         font-weight: 700;
         line-height: 4.2rem;
         font-size: 3.2rem;
     }
 
-    .customer
--content-list {
-        list-style: none;
+    .customer-content-list {
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .customer-content-list-item:not(:last-child) {
         margin: 0;
         padding: 0;
         margin-bottom: 1.5rem;
     }
 
-    .customer
--content-list-item:not(:last-child) {
-        margin: 0;
-        padding: 0;
-        margin-bottom: 1.5rem;
+    .customer-content-list-item {
+        justify-content: center;
     }
 
-    .customer
--content-list-item-title {
+    .customer-content-list-item-title {
         margin-bottom: 1.2rem;
         font-weight: 600;
     }
 
 
+    .customer-img {
+        margin-top: 3rem;
+    }
     /* Img */
-    .customer
--img img {
+    .customer-img img {
         max-width: 40rem;
         height: 30rem;
     }
