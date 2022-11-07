@@ -4,7 +4,7 @@ import "./priceTable.css";
 
 function PriceTable() {
   return (
-    <div className="container price_table">
+    <div id="pricing" className="container price_table">
       <h3 className="price_title">Price Table</h3>
       <p className="price_subtitle">We offer competitive price</p>
       <div className="price_table-container">
