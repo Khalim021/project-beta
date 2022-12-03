@@ -4,7 +4,7 @@ import "./CustomerSupport.css";
 function CustomerSupport() {
   return (
     <div>
-      <div className="customer container">
+      <div id="customers" className="customer container">
         <div className="customer-img">
           <img src="./images/customer-img.svg" alt="customer img" />
         </div>
@@ -17,7 +17,7 @@ function CustomerSupport() {
           </p>
           <ul className="customer-content-list">
             <li className="customer-content-list-item">
-              <div className="customer-content-img">
+              <span className="customer-content-img">
                 <img
                   src="./images/yellow-circle.svg"
                   alt=""
@@ -28,7 +28,7 @@ function CustomerSupport() {
                   src="./images/check-icon.svg"
                   alt=""
                 />
-              </div>
+              </span>
 
               <p className="customer-content-list-item-text">
                 Never worry about overpaying for your energy again.
@@ -36,7 +36,7 @@ function CustomerSupport() {
             </li>
 
             <li className="customer-content-list-item">
-              <div className="customer-content-img">
+              <span className="customer-content-img">
                 <img
                   src="./images/red-circle.svg"
                   alt=""
@@ -47,7 +47,7 @@ function CustomerSupport() {
                   src="./images/check-icon.svg"
                   alt=""
                 />
-              </div>
+              </span>
               <p className="customer-content-list-item-text">
                 We will only switch you to energy companies that we trust and
                 will treat you right
@@ -55,7 +55,7 @@ function CustomerSupport() {
             </li>
 
             <li className="customer-content-list-item">
-              <div className="customer-content-img">
+              <span className="customer-content-img">
                 <img
                   src="./images/blue-circle.svg"
                   alt=""
@@ -66,7 +66,7 @@ function CustomerSupport() {
                   src="./images/check-icon.svg"
                   alt=""
                 />
-              </div>
+              </span>
               <p className="customer-content-list-item-text">
                 We track the markets daily and know where the savings are.
               </p>

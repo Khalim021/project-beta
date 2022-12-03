@@ -100,7 +100,9 @@
             font-weight: 600;
         }
     
-    
+        .management-img {
+            margin-top: 2rem;
+        }
         /* Img */
         .management-img img {
             max-width: 40rem;

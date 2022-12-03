@@ -1,0 +1,114 @@
+
+.collaborative {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collaborative-content {
+    padding: 0;
+    margin: 0;
+    margin-right: 8.5rem;
+}
+
+.collaborative-content-info {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.collaborative-content-header {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.3rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    font-size: 3.2rem;
+}
+
+.collaborative-content-text {
+    margin: 0;
+    padding: 0;
+}
+
+.collaborative-content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.collaborative-content-list-item:not(:last-child) {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+.collaborative-content-list-item-title {
+    margin-bottom: 1.2rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+}
+
+
+/* Img */
+.collaborative-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 54rem;
+    height: 47rem;
+}
+
+
+@media(min-width: 0) and (max-width: 988px) {
+    .collaborative {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .collaborative-content {
+        margin: 0;
+    }
+
+    .collaborative-content-info {
+        margin-bottom: 0.4rem;
+    }
+
+    .collaborative-content-header {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        line-height: 4.2rem;
+        font-size: 3.2rem;
+    }
+
+    .collaborative-content-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .collaborative-content-list-item:not(:last-child) {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .collaborative-content-list-item-title {
+        margin-bottom: 1.2rem;
+        font-weight: 600;
+    }
+
+
+    /* Img */
+    .collaborative-img {
+            margin-top: 2rem;
+    }
+
+    .collaborative-img img {
+        max-width: 40rem;
+        height: 30rem;
+    }
+}

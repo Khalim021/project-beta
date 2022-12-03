@@ -1,0 +1,123 @@
+.build-specific {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 114px;
+  margin-bottom: 200px;
+  /* font-family: "Poppins"; */
+}
+.build-specific__title {
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  text-align: center;
+}
+.build-specific__group {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/headerBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bs-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 66px;
+  text-align: left;
+}
+
+.bs-card__item {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bs-card__pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+}
+
+.bs-card__item:first-child .bs-card__pic {
+  background: #02897a;
+}
+.bs-card__item:nth-child(2) .bs-card__pic {
+  background: #4d8dff;
+}
+.bs-card__item:nth-child(3) .bs-card__pic {
+  background: #740a76;
+}
+.bs-card__item:last-child .bs-card__pic {
+  background: #f03e3d;
+}
+
+.bs-card__title {
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  margin: 30px 0 13px;
+}
+.bs-card__desc {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.build-specific__btn {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 32px 14px 32px;
+  background: #02897a;
+  border-radius: 4px;
+  transition: 0.05s linear;
+  margin-top: 34px;
+  display: inline-block;
+  border: none;
+}
+.build-specific__btn:hover {
+  background-color: #04554b;
+}
+
+@media screen and (max-width: 1045px) {
+  .bs-card {
+    margin-top: 40px;
+  }
+  .bs-card__item {
+    width: 48%;
+    margin-top: 30px;
+  }
+  .bs-card__title {
+    margin: 20px 0 8px;
+  }
+}
+@media screen and (max-width: 645px) {
+  .build-specific__title {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    text-align: center;
+  }
+  .bs-card__title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .bs-card__desc {
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+  }
+  .bs-card__item {
+    width: 100%;
+    align-items: center;
+  }
+  .build-specific__btn {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}

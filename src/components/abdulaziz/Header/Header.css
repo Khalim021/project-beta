@@ -1,0 +1,130 @@
+.header {
+  margin-top: 24px;
+  /* font-family: "Poppins"; */
+}
+
+.header--light{
+  background-color: #fff;
+  color: black;
+}
+
+.header--dark{
+  background-color: #0000;
+  color: #fff;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__text {
+  display: flex;
+  flex-direction: column;
+}
+.header__title {
+  font-size: 4rem;
+  line-height: 6rem;
+  color: var(--content-text);
+}
+
+.header__desc {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: var(--content-text);
+  margin: 18px 0 45px;
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+}
+
+.header__btn,
+.header__play {
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.header__btn {
+  font-weight: 700;
+
+  padding: 15px 41px;
+  background: #02897a;
+  border-radius: 4px;
+  color: #ffffff;
+  transition: 0.05s linear;
+  margin-right: 30px;
+}
+.header__play {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  transition: 0.05s linear;
+  color: #02897a;
+}
+.header__play span {
+  margin-left: 8.5px;
+  text-decoration: underline;
+}
+.header__play:hover {
+  color: #04554b;
+}
+.header__btn:hover {
+  background: #04554b;
+}
+
+.header__img {
+  margin-left: 34px;
+}
+
+@media screen and (max-width: 1045px) {
+  .header__img {
+    max-width: 54%;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .header__title {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+  
+  .header__desc {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .header__btn {
+    padding: 12px 32px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .header .container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .header__text {
+    width: 100%;
+  }
+  .header__img {
+    max-width: 90%;
+    margin: 25px auto;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .header__title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  
+  .header__desc {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .header__btn {
+    padding: 10px 26px;
+  }
+}
