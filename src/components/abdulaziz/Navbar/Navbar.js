@@ -3,12 +3,13 @@ import "./Navbar.css";
 import logo from "../../../assets/images/logo.png";
 import logoText from "../../../assets/images/logo1.png";
 import darkmode from "../../../assets/images/darkmode.svg";
-import useTheme from  "../../Hook/useTheme"
+import useTheme from  "../../Hook/useTheme";
 
 const NavLink = ({link, className}) => {
+  const [theme] = useTheme()
   return (
     <li>
-      <a href={`#`+link} className={className}>
+      <a href={`#`+link} className={`${className} ${theme}`}>
         {link}
       </a>
     </li>
@@ -20,7 +21,7 @@ export default function Navbar() {
   const [theme, setTheme] = useTheme();
   
   return (
-    <nav className={`navbar navbar--${theme}`}>
+    <nav className="navbar">
       <div className="container">
         <a href='/' id='logo'>
           <img src={logo} alt='logo' />
@@ -34,12 +35,12 @@ export default function Navbar() {
 
           <NavLink link="sign in" className="navbar__btn" />
           <NavLink link="sign in" className="navbar__btn navbar__btn--dark" />
-          <li><a href="/" className='darkmode'><img src={darkmode} alt={darkmode}/></a></li>
-          <li>
-          <select className="select__theme" value={theme} onChange={(evt)=>setTheme(evt.target.value)}>
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-        </select>
+          <li className="navbar__darkmode">
+            <img 
+                src={darkmode} 
+                onClick={(e) => {setTheme(e.view.localStorage.theme == "light" ? "dark" : "light");console.log(e);}} 
+                alt={darkmode}
+              />
           </li>
         </ul>
 

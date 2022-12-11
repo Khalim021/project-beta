@@ -64,7 +64,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    color: #22343D;
 }
 
 .footer__item a {
@@ -87,7 +86,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    color: #22343D;
 }
 
 input[type=text] {
@@ -133,5 +131,4 @@ input[type=text]:focus {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #22343D;
 }

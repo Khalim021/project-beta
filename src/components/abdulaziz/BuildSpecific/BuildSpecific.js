@@ -3,17 +3,20 @@ import Cursor from "../../../assets/images/cursor.svg";
 import Ds from "../../../assets/images/ds.svg";
 import Heart from "../../../assets/images/heart.svg";
 import Timer from "../../../assets/images/timer.svg";
+import useTheme from "../../Hook/useTheme";
 import "./BuildSpecific.css";
 
 export default function BuildSpecific() {
+  const [theme] = useTheme();
+
   return (
-    <div id="product" className="build-specific">
+    <div id="product" className={`build-specific ${theme}`}>
       <div className="container">
         <h1 className="build-specific__title">
           Product was Built Specifically for You
         </h1>
       </div>
-      <div className="build-specific__group">
+      <div className={`build-specific__group ${theme}`}>
         <div className="container">
           <div className="bs-card">
             <div className="bs-card__item">

@@ -41,3 +41,14 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.light{
+  background-color: #fff;
+  color: var(--content-text);
+}
+
+.dark{
+  background-color: #000;
+  color: #FFF !important;
+  background-image: none !important;
+}

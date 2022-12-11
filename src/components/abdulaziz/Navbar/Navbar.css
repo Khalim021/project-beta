@@ -2,15 +2,6 @@
   padding: 19px 0;
 }
 
-.navbar--light{
-  background-color: #fff;
-  color: #000;
-}
-
-.navbar--dark{
-  background-color: #000;
-  color: #fff;
-}
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -31,6 +22,13 @@
   list-style-type: none;
   /* font-family: "Poppins"; */
 }
+
+.navbar__darkmode {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .navbar__link,
 .navbar__btn,
 .sidebar__link,

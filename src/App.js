@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from './components/abdulaziz/Navbar/Navbar';
 import BuildSpecific from './components/abdulaziz/BuildSpecific/BuildSpecific';
 import Header from './components/abdulaziz/Header/Header';
@@ -11,11 +12,14 @@ import Clients from "./components/doniyorbek/Clients";
 import AdvBanner from "./components/doniyorbek/AdvBanner";
 import Footer from "./components/doniyorbek/Footer";
 
+import useTheme from './components/Hook/useTheme';
+
 import "./App.css";
 
 function App() {
+  const [theme] = useTheme();
   return (
-    <div>
+    <div className={`${theme}`}>
       <Navbar />
       <Header />
       <BuildSpecific />

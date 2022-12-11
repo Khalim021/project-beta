@@ -1,10 +1,12 @@
 import React from 'react';
+import useTheme from '../Hook/useTheme';
 import './footer.css';
 
 function Footer() {
+    const [theme] = useTheme();
     return (
         <div>
-            <footer className='footer'>
+            <footer className="footer">
                 <div className='container'>
                     <div className='footer__wrapper'>
                         <dir className='footer__logo'>
@@ -41,36 +43,36 @@ function Footer() {
                             </ul>
                         </dir>
 
-                        <ul className='footer__list'>
+                        <ul className='footer__list white'>
                             <h4 className='footer__title'>Resource</h4>
                             <li className='footer__item'>
-                                <a href="/">About Us</a>
+                                <a className={theme} href="/">About Us</a>
                             </li>
                             <li className='footer__item'>
-                                <a href="/">Blog</a>
+                                <a className={theme} href="/">Blog</a>
                             </li>
                             <li className='footer__item'>
-                                <a href="/">Contact</a>
+                                <a className={theme} href="/">Contact</a>
                             </li>
                             <li className='footer__item'>
-                                <a href="/">FAQ</a>
+                                <a className={theme} href="/">FAQ</a>
                             </li>
                         </ul>
 
                         <ul className='footer__list'>
                             <h4 className='footer__title'>Resource</h4>
                             <li className='footer__item'>
-                                <a href="/">Disclaimer</a>
+                                <a className={theme} href="/">Disclaimer</a>
                             </li>
                             <li className='footer__item'>
-                                <a href="/">Financing</a>
+                                <a className={theme} href="/">Financing</a>
                             </li>
                             <li className='footer__item'>
-                                <a href="/">Privacy Policy
+                                <a className={theme} href="/">Privacy Policy
                                 </a>
                             </li>
                             <li className='footer__item'>
-                                <a href="/">Terms of Service</a>
+                                <a className={theme} href="/">Terms of Service</a>
                             </li>
                         </ul>
 
@@ -80,7 +82,7 @@ function Footer() {
                             <label htmlFor="text"></label>
                             <input type="text" name="text" id="text" />
                             <div className='form__link'>
-                                <a href="/">Sign up Now</a>
+                                <a className={theme} href="/">Sign up Now</a>
                             </div>
                         </form>
                     </div>
