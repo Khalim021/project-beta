@@ -38,7 +38,7 @@ export default function Navbar() {
           <li className="navbar__darkmode">
             <img 
                 src={darkmode} 
-                onClick={(e) => {setTheme(e.view.localStorage.theme == "light" ? "dark" : "light");console.log(e);}} 
+                onClick={(e) => setTheme(e.view.localStorage.theme == "light" ? "dark" : "light")} 
                 alt={darkmode}
               />
           </li>
