@@ -43,7 +43,12 @@ export default function Navbar() {
               />
           </li>
         </ul>
-
+        <img
+          className="darkmode"
+          src={darkmode} 
+          onClick={(e) => setTheme(e.view.localStorage.theme == "light" ? "dark" : "light")} 
+          alt={darkmode}
+        />
         <div className="navbar__icon" onClick={() => setSidebar(!showSidebar)}>
           <span></span>
           <span></span>

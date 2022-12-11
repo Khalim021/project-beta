@@ -131,6 +131,25 @@
   width: 280px;
   height: 100vh;
 }
+.darkmode {
+  display: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 15px;
+}
+/* Darkmode */
+.dark .sidebar__items {
+  background-color: black;
+}
+
+.dark .sidebar__close {
+  color: white;
+  
+}
+.dark .sidebar__close:hover {
+  background-color: rgb(53, 52, 52) !important;
+}
+/* End of darkmode */
 .sidebar__close {
   position: absolute;
   right: 20px;
@@ -163,6 +182,9 @@
 }
 
 @media screen and (max-width: 935px) {
+  .darkmode {
+    display: inline-block;
+  }
   .navbar__items {
     display: none;
   }
