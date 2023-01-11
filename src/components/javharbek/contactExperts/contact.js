@@ -6,10 +6,12 @@ import expert1 from "../../../assets/images/expert-1.png";
 import expert2 from "../../../assets/images/expert-2.png";
 import expert3 from "../../../assets/images/expert-3.png";
 import expert4 from "../../../assets/images/expert-4.png";
+import useTheme from "../../Hook/useTheme";
 
 function ContactExperts() {
+  const [theme] = useTheme();
   return (
-    <div className="background">
+    <div className={`background ${theme}`}>
       <div className="connect container">
         <div className="connect_header">
           <h3 className="connect_header-title">Quick & Easy Process</h3>

@@ -39,7 +39,9 @@
   border-radius: 8px;
   padding: 2.4rem 0 3.2rem;
 }
-
+.dark .price_table-box {
+  border: 1px solid #02897a;
+}
 .box-title {
   margin: 0;
   font-weight: 700;

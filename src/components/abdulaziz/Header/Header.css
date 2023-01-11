@@ -2,6 +2,16 @@
   margin-top: 24px;
   /* font-family: "Poppins"; */
 }
+
+.header--light{
+  background-color: #fff;
+  color: black;
+}
+
+.header--dark{
+  background-color: #0000;
+  color: #fff;
+}
 .header .container {
   display: flex;
   align-items: center;

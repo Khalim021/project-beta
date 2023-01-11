@@ -16,6 +16,9 @@
   background-size: cover;
   background-position: center;
 }
+.dark .expert_text {
+  color: var(--content-text);
+}
 
 .reverse {
   flex-direction: row-reverse;

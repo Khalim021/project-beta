@@ -1,3 +1,4 @@
+
 import Navbar from './components/abdulaziz/Navbar/Navbar';
 import BuildSpecific from './components/abdulaziz/BuildSpecific/BuildSpecific';
 import Header from './components/abdulaziz/Header/Header';
@@ -14,7 +15,9 @@ import Footer from "./components/doniyorbek/Footer";
 import "./App.css";
 
 function App() {
+  const [theme] = useTheme();
   return (
+    <div className={`${theme}`}>
     <div>
       <Navbar />
       <Header />
