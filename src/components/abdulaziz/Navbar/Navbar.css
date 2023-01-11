@@ -1,7 +1,6 @@
 .navbar {
   padding: 19px 0;
 }
-
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -185,6 +184,7 @@
   .darkmode {
     display: inline-block;
   }
+
   .navbar__items {
     display: none;
   }

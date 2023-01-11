@@ -1,3 +1,4 @@
+
 :root {
   --content-text: #22343d;
 }
@@ -13,6 +14,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 26px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Poppins';
   color: var(--content-text);
 }
 
@@ -40,13 +43,10 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-}
-
 .light{
   background-color: #fff;
   color: var(--content-text);
 }
-
 .dark{
   background-color: #000;
   color: #FFF !important;

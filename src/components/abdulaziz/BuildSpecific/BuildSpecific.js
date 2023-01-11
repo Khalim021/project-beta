@@ -11,12 +11,18 @@ export default function BuildSpecific() {
 
   return (
     <div id="product" className={`build-specific ${theme}`}>
+import "./BuildSpecific.css";
+
+export default function BuildSpecific() {
+  return (
+    <div id="product" className="build-specific">
       <div className="container">
         <h1 className="build-specific__title">
           Product was Built Specifically for You
         </h1>
       </div>
       <div className={`build-specific__group ${theme}`}>
+      <div className="build-specific__group">
         <div className="container">
           <div className="bs-card">
             <div className="bs-card__item">
