@@ -4,7 +4,7 @@ import "./CustomerSupport.css";
 function CustomerSupport() {
   return (
     <div>
-      <div className="customer container">
+      <div id="customers" className="customer container">
         <div className="customer-img">
           <img src="./images/customer-img.svg" alt="customer img" />
         </div>

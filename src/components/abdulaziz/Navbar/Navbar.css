@@ -34,6 +34,7 @@
   font-size: 1.6rem;
   line-height: 2.8rem;
   color: #334d5a;
+  text-transform: capitalize;
   transition: color 0.2s linear;
 }
 .navbar__link:hover,

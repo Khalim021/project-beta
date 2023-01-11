@@ -7,7 +7,7 @@ import "./BuildSpecific.css";
 
 export default function BuildSpecific() {
   return (
-    <div className="build-specific">
+    <div id="product" className="build-specific">
       <div className="container">
         <h1 className="build-specific__title">
           Product was Built Specifically for You
